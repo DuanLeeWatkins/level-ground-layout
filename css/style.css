@@ -57,7 +57,8 @@ nav {
   max-width: 10%;
 }
 
-#donate-btn {
+#donate-btn,
+#volunteer-btn {
   padding: 7px 10px;
   max-width: 20%;
 }
@@ -70,10 +71,36 @@ nav {
   text-align: center;
 }
 
-#why-section {
-  min-height: 100vh;
+#intro-section h1 {
   text-align: center;
-  padding: 100px 150px 100px 150px;
+  font-size: 3rem;
+}
+
+#intro-section p {
+  margin: 42px 0;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+#intro-section a {
+  font-size: 1.4rem;
+}
+
+#why-section {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+#why-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: rgb(72, 72, 88);
+}
+
+#why-section p {
+  font-size: 20px;
+  color: rgb(72, 72, 88);
+  font-weight: 300;
 }
 
 #visit-gym-section,
@@ -86,14 +113,33 @@ nav {
 }
 
 #volunteer-section {
+  float: left;
   width: 100%;
-  padding: 0 200px 0 200px;
+  padding: 100px 20px;
   text-align: center;
-  margin-top: 0px;
 }
 
-#volunteer-section,
-h2 {
+#volunteer-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: rgb(72, 72, 88);
+}
+
+#volunteer-section p {
+  font-size: 20px;
+  color: rgb(72, 72, 88);
+  font-weight: 300;
+}
+
+footer {
+  float: left;
+  background-color: rgb(13, 13, 22);
+  width: 100%;
+  padding: 20px;
+}
+
+footer p {
+  color: grey;
 }
 
 /******************************************
