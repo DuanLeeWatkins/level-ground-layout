@@ -1,0 +1,101 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  background-color: rgb(118, 118, 146);
+  color: white;
+  padding: 10px;
+  max-width: 100%;
+}
+.nav-bar ul {
+  float: left;
+  margin-left: 3%;
+  max-width: 20%;
+}
+
+.nav-bar ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.nav-bar h2 {
+  float: left;
+  margin-left: 30%;
+  margin-right: 33%;
+  max-width: 10%;
+}
+
+#donate-btn {
+  padding: 7px 10px;
+  max-width: 20%;
+}
+
+#intro-section {
+  background-color: rgb(118, 118, 146);
+  height: 300px;
+  width: 100%;
+  padding: 20%;
+  text-align: center;
+}
+
+#why-section {
+  min-height: 100vh;
+  text-align: center;
+  padding: 100px 150px 100px 150px;
+}
+
+#visit-gym-section,
+#visit-you-section {
+  width: 50%;
+  float: left;
+  background: gray;
+  text-align: center;
+  padding: 50px 100px 150px 100px;
+}
+
+#volunteer-section {
+  width: 100%;
+  padding: 0 200px 0 200px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+#volunteer-section,
+h2 {
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
