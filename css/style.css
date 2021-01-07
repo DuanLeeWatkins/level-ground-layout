@@ -145,3 +145,39 @@ footer p {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+@media (max-width: 700px) {
+  header {
+    height: 90px;
+  }
+
+  .nav-bar {
+    height: 75px;
+  }
+
+  .nav-bar h2 {
+    margin-left: 23%;
+  }
+
+  #donate-btn {
+    margin-top: 2%;
+  }
+
+  #intro-section {
+    padding-top: 10%;
+    height: 525px;
+  }
+
+  #intro-section p {
+    margin: 42px -78px;
+    font-size: 1.4rem;
+  }
+
+  #visit-gym-section p,
+  #visit-you-section p {
+    width: 233px;
+    height: 216px;
+    margin-left: -37px;
+    font-size: 1.1rem;
+  }
+}
